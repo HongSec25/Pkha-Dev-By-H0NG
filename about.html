@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Phka</title>
+  <link rel="icon" href="image/Logo.png" type="image/png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; }
+    .kh-title { font-family: "Kantumruy Pro", sans-serif; font-weight: 300; letter-spacing: 1px; line-height: 1.3; }
+  </style>
+</head>
+<body class="bg-[#faf6f2] text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-black/10 backdrop-blur-sm">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 py-5">
+      <input type="checkbox" id="menu-toggle" class="peer hidden">
+      <div class="flex justify-between items-center">
+        <img src="image/logo.png" alt="Pka Logo" class="w-10 h-10 sm:w-12 sm:h-12 object-cover" />
+        <label for="menu-toggle" class="md:hidden cursor-pointer text-white p-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </label>
+        <ul class="hidden md:flex space-x-10 text-white text-[13px] tracking-[4px] uppercase">
+          <li><a href="index.html" class="hover:text-pink-200 transition">Home</a></li>
+          <li><a href="about.html" class="hover:text-pink-200 transition">About</a></li>
+          <li><a href="product.html" class="hover:text-pink-200 transition">Products</a></li>
+          <li><a href="contact.html" class="hover:text-pink-200 transition">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hidden peer-checked:block md:hidden mt-4">
+        <div class="bg-[#f7ede7] rounded-3xl p-6 shadow-xl">
+          <ul class="space-y-4 text-center">
+            <li><a href="index.html" class="text-gray-700 uppercase tracking-[4px] text-sm hover:text-[#d6a99d] transition">Home</a></li>
+            <li><a href="about.html" class="text-gray-700 uppercase tracking-[4px] text-sm hover:text-[#d6a99d] transition">About</a></li>
+            <li><a href="product.html" class="text-gray-700 uppercase tracking-[4px] text-sm hover:text-[#d6a99d] transition">Products</a></li>
+            <li><a href="contact.html" class="text-gray-700 uppercase tracking-[4px] text-sm hover:text-[#d6a99d] transition">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="relative py-16 sm:py-10 text-center bg-cover bg-center bg-no-repeat min-h-[300px] sm:min-h-0 flex items-center" style="background-image: url('image/phka-bg.webp');">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 w-full py-12 sm:py-16">
+      <p class="uppercase tracking-[4px] sm:tracking-[5px] text-xs sm:text-sm text-amber-100 mb-3 sm:mb-4">About Our Brand</p>
+      <h1 class="text-3xl sm:text-5xl md:text-7xl text-white font-semibold leading-tight">Phka</h1>
+      <p class="text-white/80 text-base sm:text-lg mt-3 sm:mt-4 max-w-2xl mx-auto">Inspired by the delicate beauty of Cambodia's national flower</p>
+    </div>
+  </section>
+
+  <!-- Our Story -->
+  <section class="py-10 sm:py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-8 sm:gap-16 items-center">
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/founder.jpg" class="w-full aspect-[4/4] object-cover hover:scale-105 transition duration-500" alt="Brand Story" />
+      </div>
+      <div class="mt-4 md:mt-0">
+        <h2 class="text-5xl sm:text-5xl mb-4 sm:mb-6">Founder</h2>
+        <p class="kh-title text-gray-600 leading-relaxed mb-4">
+          <span class=" font-semibold text-amber-700">Phka</span> ជាផលិតផលថែសម្រស់ និងថែរក្សាស្បែករបស់កម្ពុជា ដែលបង្កើត និងផ្សព្វផ្សាយដោយ Pich Pisey។ ម៉ាកនេះផ្តល់ជូននូវផលិតផលគ្រឿងសម្អាង និងថែទាំស្បែកដែលមានគុណភាព និងតម្លៃសមរម្យ ដើម្បីបំពេញតម្រូវការរបស់យុវវ័យកម្ពុជា ជាពិសេសអ្នកប្រើប្រាស់ដែលសកម្មលើបណ្តាញសង្គម។
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Brand -->
+  <section class="py-10 sm:py-12 bg-[#f8efea]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-8 sm:gap-16 items-center">
+      <div class="order-2 md:order-1 mt-4 md:mt-0">
+        <h2 class="text-5xl sm:text-5xl mb-4 sm:mb-6">Our Brand</h2>
+        <p class="kh-title text-gray-600 leading-relaxed mb-4">
+          <span class="font-semibold text-amber-700">Phka</span> គឺជាបណ្ដុំផលិតផលគ្រឿងសម្អាងដ៏ពេញនិយមរបស់ម៉ាក ដែលបង្កើតឡើងសម្រាប់យុវវ័យដែលចង់បង្ហាញភាពជាខ្លួនឯងតាមរយៈស្ទីល និងសម្រស់។ ផលិតផលមានគុណភាពខ្ពស់ រួមមាន blush និង beauty essentials ជាច្រើន ដែលជួយបង្កើនភាពស្រស់ស្អាត និងទំនុកចិត្តក្នុងជីវិតប្រចាំថ្ងៃ។
+        </p>
+      </div>
+      <div class="order-1 md:order-2 overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/abt-pka1.jpg" class="w-full aspect-[4/4] object-cover hover:scale-105 transition duration-500" alt="Our Brand" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Pairs -->
+  <section class="py-10 sm:py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-16 items-center">
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/abt-pka2.jpg" class="w-full aspect-[3/4] object-cover hover:scale-105 transition duration-500" alt="Our Commitment" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/mean-pka3.jpg" class="w-full aspect-[3/4] object-cover hover:scale-105 transition duration-500" alt="Our Commitment" />
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10 sm:py-12 bg-[#f8efea]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-16 items-center">
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/mean-pka1.jpg" class="w-full aspect-[3/4] object-cover hover:scale-105 transition duration-500" alt="Our Commitment" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/abt-pka3.jpg" class="w-full aspect-[3/4] object-cover hover:scale-105 transition duration-500" alt="Our Philosophy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10 sm:py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-16 items-center">
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/abt-pka4.jpg" class="w-full aspect-[3/4] object-cover hover:scale-105 transition duration-500" alt="Our Commitment" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-xl">
+        <img src="image/mean-pka2.jpg" class="w-full aspect-[3/4] object-cover hover:scale-105 transition duration-500" alt="Our Commitment" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Banner -->
+  <section class="hidden md:block relative py-24 bg-cover bg-center bg-fixed min-h-[250px] flex items-center" style="background-image: url('image/bg-phka-sla.jpg');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center text-white"></div>
+  </section>
+
+  <!-- Feedback -->
+  <section class="py-12 sm:py-16 bg-gradient-to-r from-amber-50 to-rose-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
+      <p class="uppercase tracking-[4px] sm:tracking-[5px] text-xs sm:text-sm text-amber-600 mb-3 sm:mb-4">Customer Love</p>
+      <h2 class="text-4xl sm:text-5xl mb-8 sm:mb-12">Feedback Customers</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
+        <div class="rounded-2xl overflow-hidden shadow-lg"><img src="image/feedback4.jpg" class="w-full aspect-square object-cover hover:scale-105 transition duration-300" alt="Happy customer" /></div>
+        <div class="rounded-2xl overflow-hidden shadow-lg"><img src="image/feedback5.jpg" class="w-full aspect-square object-cover hover:scale-105 transition duration-300" alt="Happy customer" /></div>
+        <div class="rounded-2xl overflow-hidden shadow-lg"><img src="image/feedback6.jpg" class="w-full aspect-square object-cover hover:scale-105 transition duration-300" alt="Happy customer" /></div>
+        <div class="rounded-2xl overflow-hidden shadow-lg"><img src="image/feedback1.jpg" class="w-full aspect-square object-cover hover:scale-105 transition duration-300" alt="Happy customer" /></div>
+        <div class="rounded-2xl overflow-hidden shadow-lg"><img src="image/feedback2.jpg" class="w-full aspect-square object-cover hover:scale-105 transition duration-300" alt="Happy customer" /></div>
+        <div class="rounded-2xl overflow-hidden shadow-lg"><img src="image/feedback3.jpg" class="w-full aspect-square object-cover hover:scale-105 transition duration-300" alt="Happy customer" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white px-4 sm:px-6 py-6 pb-16 sm:pb-6 relative overflow-hidden">
+    <div class="relative z-10 flex flex-col gap-1">
+      <h2 class="font-bold text-2xl text-gray-900 mb-2">Phka</h2>
+      <a href="contact.html#locations" class="flex items-center gap-2 text-gray-700 text-sm hover:text-gray-900 transition">
+        <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="1"/></svg>
+        Our Location
+      </a>
+      <div class="flex flex-wrap items-center gap-3 mt-2 text-sm">
+        <span class="text-gray-600">Tel: 066-560-352</span>
+        <a href="https://t.me/Launmyat" class="flex items-center gap-1 text-blue-600 font-medium hover:underline">
+          <svg class="w-4 h-4 fill-blue-500 shrink-0" viewBox="0 0 24 24"><path d="M21.8 2.1L1.4 9.9c-1.3.5-1.3 1.3-.2 1.6l5.1 1.6 1.9 5.8c.3.7.2 1 .9 1 .5 0 .8-.2 1.1-.5l2.6-2.5 5.2 3.8c1 .5 1.7.3 1.9-.9l3.4-16c.3-1.5-.5-2.2-1.5-1.7z"/></svg>
+          Telegram
+        </a>
+      </div>
+      <p class="text-gray-500 text-xs mt-1">Dev by H0ng</p>
+      <p class="text-gray-500 text-xs">For educational purposes only</p>
+      <p class="text-gray-500 text-xs">Copyright© 2026</p>
+      <div class="flex items-center gap-2 text-xs font-medium text-gray-500 mt-3 sm:hidden">
+        We accept:
+        <img src="image/jandt-logo.webp" alt="J&T Logo" class="h-5 object-contain" />
+        <img src="image/bakong-logo.svg" alt="KHQR Logo" class="h-5 object-contain" />
+      </div>
+    </div>
+    <div class="absolute bottom-4 right-4 hidden sm:flex items-center gap-3">
+      <div class="flex items-center gap-2 text-xs font-medium text-gray-500">
+        We accept:
+        <img src="image/jandt-logo.webp" alt="J&T Logo" class="h-5 object-contain" />
+        <img src="image/bakong-logo.svg" alt="KHQR Logo" class="h-5 object-contain" />
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
